@@ -8,15 +8,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/LoadingScreen.unity
     guid: e5228980921126440b8a9c5cc6b677e9
-  - enabled: 0
-    path: Assets/Scenes/sampleEDIT.unity
-    guid: d63e5ea240ca38d4f9c6dbfc2de611df
-  - enabled: 0
-    path: Assets/Scenes/Habitacion resized.unity
-    guid: c2e6c3080db32dc4f85049c12748eb9d
   - enabled: 1
     path: Assets/Scenes/HabitacionGit 0.1.unity
     guid: 99fcb51649e1bd24abc74ab140408248
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 345ad6f5cbaa458449fb7dcf0d506ebc
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 422d9bfb709fe624480b9e0fe23beb34, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c3e64da2240c01c41ac8b042f905530c, type: 2}
