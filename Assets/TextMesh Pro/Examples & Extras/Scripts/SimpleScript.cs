@@ -1,6 +1,8 @@
-﻿using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-public class luzuTvController : MonoBehaviour
+public class luzuTvOn : MonoBehaviour
 {
     public Light luzuTvLight; // Referencia a la luz que queremos controlar
 
