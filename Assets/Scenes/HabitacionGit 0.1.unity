@@ -15531,36 +15531,14 @@ Transform:
   m_Children: []
   m_Father: {fileID: 6569685879322347242}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!146 &2596687012915891183
-WheelCollider:
+--- !u!136 &2596687012915891183
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1922061182464813417}
-  serializedVersion: 2
-  m_Center: {x: 0, y: 0, z: 0}
-  m_Radius: 0.5
-  m_SuspensionSpring:
-    spring: 35000
-    damper: 4500
-    targetPosition: 0.5
-  m_SuspensionDistance: 0.3
-  m_ForceAppPointDistance: 0
-  m_Mass: 20
-  m_WheelDampingRate: 0.25
-  m_ForwardFriction:
-    m_ExtremumSlip: 0.4
-    m_ExtremumValue: 1
-    m_AsymptoteSlip: 0.8
-    m_AsymptoteValue: 0.5
-    m_Stiffness: 1
-  m_SidewaysFriction:
-    m_ExtremumSlip: 0.2
-    m_ExtremumValue: 1
-    m_AsymptoteSlip: 0.5
-    m_AsymptoteValue: 0.75
-    m_Stiffness: 1
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -15568,8 +15546,14 @@ WheelCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_Enabled: 1
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.17
+  m_Height: 7.4900002
+  m_Direction: 0
+  m_Center: {x: -0.0000000047063566, y: 1.87, z: -0.00000047627344}
 --- !u!33 &2649733880348989537
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -16765,7 +16749,7 @@ Transform:
   m_GameObject: {fileID: 1795168700691077248}
   serializedVersion: 2
   m_LocalRotation: {x: -0.00044001933, y: 0.70380807, z: -0.0012564145, w: 0.71038896}
-  m_LocalPosition: {x: -7.3662, y: 1.0429, z: -0.2926}
+  m_LocalPosition: {x: -7.303, y: 1.0429, z: -0.2926}
   m_LocalScale: {x: 1.2000926, y: 1.2481935, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -17053,7 +17037,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 5.8672075, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -3.2985477, y: 1.9240469, z: 0.1488811}
+  m_ConnectedAnchor: {x: -3.2450373, y: 1.7534077, z: 0.14126907}
   serializedVersion: 3
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 2
@@ -18491,7 +18475,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6317959500936985893}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7f3458a9f2a46e64babda1b6e8586c3e, type: 3}
   m_Name: 
